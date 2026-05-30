@@ -1,0 +1,27 @@
+.intro-video-wrapper {
+  width: min(100%, 400px);
+  margin: 0 auto 2rem auto;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #000;
+}
+
+.intro-video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slider {
+  width: min(100%, 800px);
+  height: 400px;
+  margin: 0 auto;
+}
+
+.slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  border-radius: 12px;
+}
