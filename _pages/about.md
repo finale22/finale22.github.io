@@ -2,7 +2,7 @@
 layout: about
 title: Seongwon Seo
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -23,6 +23,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
 <div id="intro-video-block" class="intro-video-wrapper">

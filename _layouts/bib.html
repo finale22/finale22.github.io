@@ -1,45 +1,53 @@
 <div class="row">
   <div class="col-sm-2 abbr">
     {% if entry.abbr %}
-      <abbr class="badge">{{ entry.abbr }}</abbr>
+    <abbr class="badge">{{ entry.abbr }}</abbr>
     {% endif %}
   </div>
 
   <div id="{{ entry.key }}" class="col-sm-8">
     <div class="title">{{ entry.title }}</div>
 
-    <div class="author">
-      {{ entry.author }}
-    </div>
+    <div class="author">{{ entry.author }}</div>
 
     <div class="periodical">
       {% if entry.booktitle %}
-        <em>{{ entry.booktitle }}</em>
+      <em>{{ entry.booktitle }}</em>
       {% elsif entry.journal %}
-        <em>{{ entry.journal }}</em>
+      <em>{{ entry.journal }}</em>
       {% endif %}
       <!--{% if entry.year %}, {{ entry.year }}{% endif %}-->
     </div>
 
     <div class="links">
       {% if entry.pdf %}
-        <a href="{% if entry.pdf contains '://' %}{{ entry.pdf }}{% else %}{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}{% endif %}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
-      {% endif %}
-
-      {% if entry.poster %}
-        <a href="{% if entry.poster contains '://' %}{{ entry.poster }}{% else %}{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}{% endif %}" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
-      {% endif %}
-
-      {% if entry.slides %}
-        <a href="{% if entry.slides contains '://' %}{{ entry.slides }}{% else %}{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}{% endif %}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
-      {% endif %}
-
-      {% if entry.code %}
-        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
-      {% endif %}
-
-      {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      <a
+        href="{% if entry.pdf contains '://' %}{{ entry.pdf }}{% else %}{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}{% endif %}"
+        class="btn btn-sm z-depth-0"
+        role="button"
+        target="_blank"
+        >PDF</a
+      >
+      {% endif %} {% if entry.poster %}
+      <a
+        href="{% if entry.poster contains '://' %}{{ entry.poster }}{% else %}{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}{% endif %}"
+        class="btn btn-sm z-depth-0"
+        role="button"
+        target="_blank"
+        >Poster</a
+      >
+      {% endif %} {% if entry.slides %}
+      <a
+        href="{% if entry.slides contains '://' %}{{ entry.slides }}{% else %}{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}{% endif %}"
+        class="btn btn-sm z-depth-0"
+        role="button"
+        target="_blank"
+        >Slides</a
+      >
+      {% endif %} {% if entry.code %}
+      <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+      {% endif %} {% if entry.bibtex_show %}
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}
     </div>
   </div>
