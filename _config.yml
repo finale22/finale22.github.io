@@ -336,8 +336,8 @@ display_tags: ["personal", "conference"] # ["formatting", "images", "links", "ma
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Seo, 서]
+  first_name: [Seongwon, 성원]
 
   style: apa
   locale: en
