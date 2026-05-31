@@ -26,6 +26,12 @@
   border-radius: 12px;
 }
 
+.publications .author .own-author {
+  color: var(--global-theme-color);
+  border-bottom: 1px solid var(--global-theme-color);
+  font-weight: 700;
+}
+
 #navbar {
   top: 0;
   right: 0;

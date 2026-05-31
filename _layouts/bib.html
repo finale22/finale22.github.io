@@ -8,7 +8,9 @@
   <div id="{{ entry.key }}" class="col-sm-8">
     <div class="title">{{ entry.title }}</div>
 
-    {% assign author_list = entry.author | replace: 'Seongwon Seo', '<strong>Seongwon Seo</strong>' | replace: '서성원', '<strong>서성원</strong>' %}
+    {% capture own_author_en %}<strong class="own-author">Seongwon Seo</strong>{% endcapture %} {% capture own_author_ko %}<strong class="own-author"
+      >서성원</strong
+    >{% endcapture %} {% assign author_list = entry.author | replace: 'Seongwon Seo', own_author_en | replace: '서성원', own_author_ko %}
     <div class="author">{{ author_list }}</div>
 
     <div class="periodical">
