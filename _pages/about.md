@@ -24,8 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-
 <div id="intro-video-block" class="intro-video-wrapper">
   <video class="intro-video" autoplay muted loop playsinline>
     <source src="{{ '/assets/video/traininthecity.mp4' | relative_url }}" type="video/mp4">
