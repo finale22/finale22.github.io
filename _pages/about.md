@@ -41,7 +41,7 @@ latest_posts:
   });
 </script>
 
-I am an M.Sc. student in <a href="https://grizzly-fog-aed.notion.site/Applied-Machine-Learning-Lab-201ea12da6c880e3a329ef1057819d2a">Applied Machine Learning Lab</a> at Hanyang University in Seoul, South Korea, advised by Prof. Young-Min Kim. My current research focuses on improving the noise robustness of large language models in Retrieval-Augmented Generation. I am also interested in LLM attacks that exploit multi-turn interactions or emotional persuasion. I hope to study defense methods against such attacks through representation engineering.
+I am an M.Sc. student in <a href="https://grizzly-fog-aed.notion.site/Applied-Machine-Learning-Lab-201ea12da6c880e3a329ef1057819d2a">Applied Machine Learning Lab</a> at Hanyang University in Seoul, South Korea, advised by Prof. Young-Min Kim. My current research focuses on improving the noise robustness of large language models in Retrieval-Augmented Generation. I am also interested in LLM attacks that exploit multi-turn interactions or emotional persuasion. I intend to research defense methods against such attacks through representation engineering.
 
 I am an early-stage researcher with much to learn, and I hope to keep growing through research. I am always open to research-related discussions.
 
