@@ -35,6 +35,15 @@
   width: 100% !important;
 }
 
+#navbar .container {
+  display: flex !important;
+  align-items: center !important;
+}
+
+#navbarNav {
+  width: 100% !important;
+}
+
 #navbar .navbar-menu-list {
   width: 100% !important;
   display: flex !important;
@@ -48,14 +57,4 @@
 #navbar .navbar-menu-list .nav-item:not(:first-child),
 #navbar .navbar-menu-list .toggle-container {
   margin-left: 0.75rem !important;
-}
-
-#navbar {
-  padding-top: 0.35rem !important;
-  padding-bottom: 0.35rem !important;
-}
-
-#navbar .nav-link {
-  padding-top: 0.35rem !important;
-  padding-bottom: 0.35rem !important;
 }
