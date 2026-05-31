@@ -33,6 +33,10 @@
   width: 100%;
 }
 
+#navbar .navbar-brand.title {
+  display: none;
+}
+
 #navbar .container {
   display: flex;
   align-items: center;
