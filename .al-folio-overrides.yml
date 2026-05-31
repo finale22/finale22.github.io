@@ -7,4 +7,4 @@ overrides:
     upstream_path: assets/css/main.scss
     upstream_sha256: 437c6c911c596391413e435dc0ea7095e682e85c572c1fd3fff69f9597455b3e
     local_sha256: b33edde4d02472aa70913a5f088e4d76a11057544fcba874f16079bd69921406
-    acknowledged_at: '2026-05-31'
+    acknowledged_at: "2026-05-31"
