@@ -19,7 +19,6 @@ It was a meaningful opportunity to attend the conference, listen to various rese
 
 This trip was not only a conference visit, but also a memorable experience that gave me a chance to refresh myself and enjoy a different atmosphere. I hope to keep learning from these opportunities and continue growing as a researcher.
 
-
 <!--<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">-->
 <swiper-container class="slider" keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
   <swiper-slide><img src="{{ '/assets/img/gyeongju1.jpeg' | relative_url }}" class="slide-img"></swiper-slide>
