@@ -32,6 +32,28 @@
   font-weight: 700;
 }
 
+.projects-list {
+  margin-top: 1rem;
+}
+
+.project-item {
+  margin-bottom: 1.5rem;
+}
+
+.project-title {
+  font-weight: 600;
+}
+
+.project-description {
+  margin-top: 0.2rem;
+}
+
+.project-meta {
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  margin-top: 0.2rem;
+}
+
 #navbar {
   top: 0;
   right: 0;
