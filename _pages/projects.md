@@ -53,7 +53,6 @@ nav_order: 3
     </div>
 
   </div>
-</div>
 
   <div class="project-item">
     <div class="project-heading">
