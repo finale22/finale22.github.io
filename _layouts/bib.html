@@ -8,10 +8,17 @@
   <div id="{{ entry.key }}" class="col-sm-8">
     <div class="title">{{ entry.title }}</div>
 
-    {% capture own_author_en %}<strong class="own-author">Seongwon Seo</strong>{% endcapture %} {% capture own_author_ko %}<strong class="own-author"
-      >서성원</strong
-    >{% endcapture %} {% assign author_list = entry.author | replace: 'Seongwon Seo', own_author_en | replace: '서성원', own_author_ko %}
-    <div class="author">{{ author_list }}</div>
+    <div class="author">
+      {%- assign author_array_size = entry.author_array | size -%} {%- assign author_array_limit = author_array_size -%} {%- if site.max_author_limit
+      and author_array_size > site.max_author_limit -%} {%- assign author_array_limit = site.max_author_limit -%} {%- endif -%} {%- for author in
+      entry.author_array limit: author_array_limit -%} {%- assign author_is_self = false -%} {%- assign author_last_name = author.last |
+      regex_replace: '[*∗†‡§¶‖&^]', '' -%} {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%} {%- if
+      site.scholar.last_name contains author_last_name and site.scholar.first_name contains author.first -%} {%- assign author_is_self = true -%} {%-
+      endif -%} {%- unless forloop.first -%} {%- if forloop.last and author_array_limit == author_array_size %} and {% else %}, {% endif -%} {%-
+      endunless -%} {%- if author_is_self -%}
+      <strong class="own-author">{{- author.first }} {{ author_last_html -}}</strong>
+      {%- else -%} {{- author.first }} {{ author_last_html -}} {%- endif -%} {%- endfor -%}
+    </div>
 
     <div class="periodical">
       {% if entry.booktitle %}
