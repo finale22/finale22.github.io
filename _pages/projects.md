@@ -7,49 +7,40 @@ nav: true
 nav_order: 3
 ---
 
-
   <div class="project-item">
     <div class="project-heading">
-      <div class="project-title">GoodPT: Presentation Analysis Platform</div>
-      <div class="project-period">2023.12 - 2024.01</div>
+      <div class="project-title">Development of a Domain-Shift-Robust CCTV-Based Rainfall Measurement Method</div>
+      <div class="project-period">2026.03 -</div>
     </div>
 
     <div class="project-field">
       <span class="project-label">Overview</span>
-      <span>Developed a presentation training platform that records presentations, analyzes posture, voice, and content, and generates follow-up questions and comprehensive reports.</span>
+      <span>In progress</span>
     </div>
 
     <div class="project-field">
       <span class="project-label">Organizer</span>
-      <span>KT AIVLE School</span>
+      <span>Korea Institute of Industrial Technology (KITECH)</span>
     </div>
 
     <div class="project-field">
       <span class="project-label">Tech Stack</span>
-      <span class="project-tech-list">
-        <span class="project-tech">Python</span>
-        <span class="project-tech">Django</span>
-        <span class="project-tech">GPT API</span>
-        <span class="project-tech">STT</span>
-        <span class="project-tech">TTS</span>
-        <span class="project-tech">MoveNet</span>
-        <span class="project-tech">Amazon RDS</span>
-      </span>
+      <span>In progress</span>
     </div>
 
     <div class="project-field">
       <span class="project-label">Team</span>
-      <span>6 members</span>
+      <span>3 members</span>
     </div>
 
     <div class="project-field">
       <span class="project-label">Role</span>
-      <span>Led the team and handled STT/TTS module design, voice analysis metrics, GPT API prompts for question and report generation, and database integration for analysis results.</span>
+      <span>In progress</span>
     </div>
 
     <div class="project-field">
       <span class="project-label">Outcome</span>
-      <span>Received the Practical Award at the KT AIVLE School Big Project.</span>
+      <span>In progress</span>
     </div>
 
   </div>
@@ -61,13 +52,13 @@ nav_order: 3
     </div>
 
     <div class="project-field">
-      <span class="project-label">Organizer</span>
-      <span>Ministry of Science and ICT (MSIT), National IT Industry Promotion Agency (NIPA)</span>
+      <span class="project-label">Overview</span>
+      <span>Built an interactive welfare policy search platform that recommends relevant policies from user queries and links users to policy details and official agency websites.</span>
     </div>
 
     <div class="project-field">
-      <span class="project-label">Overview</span>
-      <span>Built an interactive welfare policy search platform that recommends relevant policies from user queries and links users to policy details and official agency websites.</span>
+      <span class="project-label">Organizer</span>
+      <span>Ministry of Science and ICT (MSIT), National IT Industry Promotion Agency (NIPA)</span>
     </div>
 
     <div class="project-field">
@@ -78,7 +69,6 @@ nav_order: 3
         <span class="project-tech">HTML</span>
         <span class="project-tech">CSS</span>
         <span class="project-tech">JavaScript</span>
-        <span class="project-tech">Cosine Similarity</span>
       </span>
     </div>
 
@@ -108,7 +98,7 @@ nav_order: 3
 
     <div class="project-field">
       <span class="project-label">Overview</span>
-      <span>Developed a monitoring system in collaboration with the Korea Tourism Organization to identify emerging tourism areas and provide regional tourism keywords and policy news.</span>
+      <span>Developed a real-time monitoring system in collaboration with the Korea Tourism Organization that uses time-series forecasting to predict emerging tourism areas and provides regional tourism keywords and policy news.</span>
     </div>
 
     <div class="project-field">
