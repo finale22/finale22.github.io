@@ -32,6 +32,15 @@
   font-weight: 700;
 }
 
+.publications .title .publication-title-link {
+  color: inherit;
+}
+
+.publications .title .publication-title-link:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .projects-list {
   margin-top: 1rem;
 }
