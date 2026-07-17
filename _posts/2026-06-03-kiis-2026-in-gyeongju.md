@@ -3,7 +3,7 @@ layout: post
 title: KIIS 2026 in Gyeongju
 date: 2026-06-03 00:00:00
 description: A short trip to Gyeongju for the Korean Institute of Industrial Engineers Conference.
-tags: conference travel gyeongju
+tags: conference gyeongju
 # categories: sample-posts
 thumbnail: assets/img/gyeongju5.jpeg
 images:
