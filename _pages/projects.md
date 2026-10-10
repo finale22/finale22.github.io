@@ -30,7 +30,7 @@ nav_order: 3
 
     <div class="project-field">
       <span class="project-label">Team</span>
-      <span>3 members</span>
+      <span>2 members</span>
     </div>
 
     <div class="project-field">

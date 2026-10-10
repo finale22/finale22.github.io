@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My paper has been accepted at the <a href="https://sites.google.com/view/gfmicml-2026">ICML 2026 GFM workshop</a>! :smile:
+One paper has been accepted at the <a href="https://sites.google.com/view/gfmicml-2026">ICML 2026 GFM workshop</a>! :smile:

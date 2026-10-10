@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My paper has been accepted at the 2026 Korea Computer Congress (KCC)! :smile:
+One paper has been accepted at the 2026 Korea Computer Congress (KCC)! :smile:
